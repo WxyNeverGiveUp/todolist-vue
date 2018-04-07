@@ -1,0 +1,28 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "这是个todolist的\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[3~个\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b基于vue+webpack的todolist应用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WxyNeverGiveUp/todolist-vue.git"
+  },
+  "author": "wuxy720",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WxyNeverGiveUp/todolist-vue/issues"
+  },
+  "homepage": "https://github.com/WxyNeverGiveUp/todolist-vue#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "cross": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
